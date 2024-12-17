@@ -10,12 +10,10 @@ package InheritanceMatematika;
  */
 public class MatematikaCanggihBangetBeraksi {
     public static void main(String[] args) {
-        MatematikaCanggihBanget math = new MatematikaCanggihBanget();
-
-        System.out.println("Pertambahan: 5 + 3 = " + math.pertambahan(5, 3));
-        System.out.println("Perkalian: 4 * 6 = " + math.perkalian(4, 6));
-        System.out.println("Modulus: 10 % 3 = " + math.modulus(10, 3));
-
-        System.out.println("PertambahanTiga: 2 + 3 + 4 = " + math.pertambahanTiga(2, 3, 4));
+        MatematikaCanggihBanget mtk = new MatematikaCanggihBanget();
+        mtk.pertambahan(20, 20);
+        mtk.perkalian(10, 20);
+        mtk.modulus(21, 2);
+        mtk.pertambahanTiga(20, 20 , 5);
     }
 }

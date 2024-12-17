@@ -8,8 +8,9 @@ package InheritanceMatematika;
  *
  * @author irvan
  */
-public class MatematikaCanggihBanget extends MatematikaCanggih {
-     public int pertambahanTiga(int a, int b, int c) {
-        return a + b + c;
+public class MatematikaCanggihBanget extends MatematikaCanggih{
+    void pertambahanTiga(int a , int b , int c){
+        hasil = a + b + c;
+        System.out.println("Hasil Pertamban Tiga angka : " + a + " + " + b + " + " + c + " : " + hasil);
     }
 }

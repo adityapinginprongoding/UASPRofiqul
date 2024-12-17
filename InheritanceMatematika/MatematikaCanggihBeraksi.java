@@ -8,9 +8,11 @@ package InheritanceMatematika;
  *
  * @author irvan
  */
-public class MatematikaCanggih extends Matematika{
-       void modulus(int a, int b) {
-        hasil = a % b;
-        System.out.println("Hasil Modulus : " + a + " % " + b + " : " + hasil);
+public class MatematikaCanggihBeraksi {
+    public static void main(String[] args) {
+        MatematikaCanggih mtk = new MatematikaCanggih();
+        mtk.pertambahan(20, 20);
+        mtk.perkalian(10, 20);
+        mtk.modulus(21, 2);
     }
 }
