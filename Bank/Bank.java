@@ -32,7 +32,4 @@ public class Bank {
         }
     }
 
-    public int getSaldo() {
-        return saldo; 
-    }
 }

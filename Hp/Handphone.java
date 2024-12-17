@@ -9,7 +9,7 @@ package Hp;
  * @author irvan
  */
 public class Handphone {
-        public void hidupkan() {
+    public void hidupkan() {
         System.out.println("Handphone hidup...");
     }
 

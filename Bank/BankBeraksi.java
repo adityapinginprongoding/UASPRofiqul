@@ -13,7 +13,7 @@ public class BankBeraksi {
         Bank bank = new Bank(100000);
 
         System.out.println("Selamat Datang di Bank ABC");
-        System.out.println("Saldo saat ini: Rp. " + bank.getSaldo());
+        System.out.println("Saldo saat ini: Rp. " + bank.saldo);
 
         bank.simpanUang(500000);
         bank.ambilUang(150000);
