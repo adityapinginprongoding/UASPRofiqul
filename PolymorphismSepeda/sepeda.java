@@ -2,15 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package InheritanceMatematika;
+package PolymorphismSepeda;
+
+import InheritanceSepeda.*;
 
 /**
  *
  * @author irvan
  */
-public class MatematikaCanggih extends Matematika{
-    void modulus(int a, int b) {
-        hasil = a % b;
-        System.out.println("Hasil Modulus : " + a + " % " + b + " : " + hasil);
+public class sepeda {
+    int gir;
+    
+    void setGir(int pertambahanGir){
+        gir = gir+ pertambahanGir;
+    }
+    
+    int getGir() {
+        return gir;
     }
 }

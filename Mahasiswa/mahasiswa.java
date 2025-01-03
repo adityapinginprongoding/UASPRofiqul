@@ -1,4 +1,4 @@
-/*
+ /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -9,10 +9,10 @@ package Mahasiswa;
  * @author irvan
  */
 public class mahasiswa {
-        public void membaca() {
+    public void membaca() {
         System.out.println("Mahasiswa sedang membaca buku...");
     }
-
+ 
     public void nyontek() {
         System.out.println("Mahasiswa sedang menyontek saat ujian...");
     }
