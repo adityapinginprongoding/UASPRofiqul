@@ -15,7 +15,7 @@ Tugas ini berfokus pada pengembangan aplikasi menggunakan **bahasa pemrograman J
 
 #### 🛠️ Teknologi yang Digunakan:
 - **Java**: Untuk pengembangan aplikasi.
-- **IDE**: IntelliJ IDEA, Eclipse, atau NetBeans.
+- **IDE**: NetBeans.
 
 ---
 
